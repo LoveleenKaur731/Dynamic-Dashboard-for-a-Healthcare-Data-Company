@@ -2,47 +2,81 @@
 
 ---
 
-## Description
-
-This project is a Power BI dashboard for healthcare analytics. It transforms raw healthcare data into an interactive and informative dashboard, providing insights into **key performance indicators (KPIs)** such as medication costs, treatment costs, insurance coverage, and billing amounts. The dashboard allows users to filter data by various dimensions like patient race, time periods, and location, offering a comprehensive view of healthcare financial data.
+A comprehensive Power BI project analyzing key performance metrics in the healthcare domain — helping providers, administrators, and policy-makers improve operational efficiency, billing management, and patient care quality.
 
 ---
 
-## Features
+## Project Summary
 
-* **Data Visualization:** Uses a variety of charts (KPI cards, Azure Maps, clustered column charts, stacked bar charts) to display data effectively.
-* **Interactive Slicers:** Allows users to filter data by patient race, year, quarter, and month.
-* **Dynamic UI:** Includes a "hide and show" slicer for better user experience and a light/dark mode switch.
-* **Key Performance Indicators (KPIs):** Displays total medication cost, treatment cost, insurance covered, and billing amount.
-* **Location Analysis:** Uses Azure Maps to visualize billing amounts by state and city.
-* **Comparative Analysis:** Compares billing amounts by procedure, diagnosis, service types, and department.
+This project leverages multiple healthcare datasets to deliver an end-to-end data analysis solution using **Power BI**. The final dashboard provides deep insights into **billing**, **procedures**, **insurance coverage**, **departmental performance**, and **diagnosis patterns** — all of which are vital to effective healthcare management.
 
 ---
 
-## Technologies Used
+## Objectives
 
-* **Power BI**
-* **DAX** (Data Analysis Expressions)
-* **PowerPoint** (for dashboard background design)
-
----
-
-## Installation/Setup
-
-1.  **Prerequisites:** Ensure you have Power BI Desktop installed.
-2.  **Data Source:** Prepare your data in CSV files or other formats compatible with Power BI.
-3.  **Import Data:** In Power BI, import the data and proceed to transform and model it for analysis.
-4.  **Build Visuals:** Create the visualizations and implement the necessary DAX measures.
-5.  **Design Dashboard:** Design the dashboard layout, incorporating any custom backgrounds or branding.
+- Analyze hospital billing, medication, treatment, and room charges.
+- Evaluate provider and department performance.
+- Identify trends in diagnoses and procedures.
+- Understand the financial impact across cities and insurance categories.
+- Enable data-driven healthcare decisions.
 
 ---
 
-## Usage
+## Tools & Technologies
 
-* Open the Power BI file in Power BI Desktop.
-* Interact with the slicers to filter the displayed data.
-* Hover over charts and visuals to see detailed information and tooltips.
-* Utilize the light/dark mode switch for your preferred viewing experience.
+- **Power BI** – for interactive dashboard and data modeling.
+- **CSV Files** – raw data sources for healthcare entities.
+- **Data Modeling** – relationship mapping using unique identifiers (`patient_id`, `visit_id`, etc.)
 
 ---
+
+## Dashboard Highlights
+
+- **Total Billing Amount**: £3M — Average per visit: **£674.86**
+- **Medication Cost**: £546K — Average: **£109.21**
+- **Treatment Cost**: £3M — Average: **£526.08**
+- **Insurance Coverage**: £2M — Average: **£456.04**
+- **Room Charges**: £180K — Average: **£36.12**
+- **Out-of-Pocket Payment**: £1M — Average: **£227.26**
+
+#### Regional Insights
+- Geographical view of billing concentration by city in the UK.
+- Cities like **London**, **Manchester**, and **Birmingham** show higher billing volumes.
+
+#### Departmental Performance
+- **Cardiology** and **Orthopedics** lead in billing contribution.
+- **Pediatrics** and **Neurology** have lower but focused contributions.
+
+#### Procedure Costs
+- **X-Ray** is the highest billed procedure at **£1M+**.
+- Other major contributors: **CT Scan**, **MRI Scan**, **Ultrasound**, and **Blood Tests**.
+
+#### Diagnosis Trends
+- Top diagnoses include **Hypertension**, **Asthma**, **Fractures**, and **Appendicitis**.
+- Majority of services categorized into **Emergency**, **Inpatient**, or **Outpatient**.
+
+---
+
+## Key Insights
+
+- **High Cost Drivers**: X-Rays and CT Scans account for the majority of billing — implying a focus on diagnostics.
+- **Chronic Condition Trends**: Hypertension and Asthma are recurring diagnoses — preventive care programs could be beneficial.
+- **City-Wise Disparity**: Some cities incur significantly higher billing, which could indicate resource load or infrastructure gaps.
+- **Provider Load Variance**: Departments like Cardiology and Orthopedics handle over 49% of the billing load collectively.
+- **Insurance Contribution**: Average insurance coverage is about **£456** — showing moderate support, but room for policy expansion.
+
+---
+
+## Recommendations
+
+- **Optimize Diagnostic Procedures**: Focus on cost control for high-expense procedures like X-Rays and CT Scans.
+- **Chronic Disease Prevention**: Launch community programs targeting lifestyle diseases like hypertension.
+- **Geographic Investment**: Investigate cities with higher billing for potential staffing and infrastructure upgrades.
+- **Balance Departmental Load**: Distribute patients more evenly among departments and providers.
+- **Expand Insurance Outreach**: Improve insurance literacy and accessibility, especially for high-risk groups.
+
+
+
+
+
 
